@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>City Weather Search</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1 style="color:goldenrod;">WEATHER FINDER</h1>
-    <input type="text" id="cityInput" placeholder="Enter your city here">
-    <button onclick="getCoordinates()">Search</button>
+<div class="container">
+    <h1> &#127780; Weather Finder</h1>
 
-    <div id="output"></div>
-  </div>
+    <div class="input-group">
+      <input type="text" id="cityInput" placeholder="Enter your city">
+      <button onclick="getCoordinates()">Search</button>
+    </div>
+
+    <div id="output" class="weather-card"></div>
+</div>
   <script src="script.js"></script>
 </body>
 </html>

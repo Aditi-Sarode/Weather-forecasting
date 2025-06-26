@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin-top: 250px;
@@ -29,4 +29,73 @@ button {
 #output {
   margin-top: 20px;
   background: rgb(249, 217, 121);
+}
+*/
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: #ffffff10;
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+  color: #fdd835;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ffee58;
+}
+
+.weather-card {
+  margin-top: 20px;
+  background-color: #ffffff20;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
 }
