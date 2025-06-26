@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Finder</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!--Connected to Style.css-->
 </head>
 <body>
-<div class="container">
+<div class="container"> <!-- Main container that contain both the user input and output-->
     <h1> &#127780; Weather Finder</h1>
 
-    <div class="input-group">
+    <div class="input-group"> <!--div to take city input and search button-->
       <input type="text" id="cityInput" placeholder="Enter your city">
-      <button onclick="getCoordinates()">Search</button>
+      <button onclick="getCoordinates()">Search</button> <!--Connected to script.js to fetch lat and long points -->
     </div>
 
-    <div id="output" class="weather-card"></div>
+    <div id="output" class="weather-card"></div><!--div to display the output parameteres and result-->
 </div>
-  <script src="script.js"></script>
+  <script src="script.js"></script><!--Connected to Script.js-->
 </body>
 </html>
